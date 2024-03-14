@@ -1,0 +1,70 @@
+.mapArea, .mapAreaHover {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+.mapAreaHover:hover {
+    background-color: #8e878725;
+}
+
+.indicator {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    cursor: pointer;
+}
+.indicator:hover {
+    border: 5px solid transparent;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 5;
+    width: 70vw;
+    height: 100vh;
+}
+
+.subscriptionBox {
+    z-index: 6;
+    position: absolute;
+    bottom: 10%;
+    width: 60vw;
+    min-height: 100px;
+    background-color: #f6c744;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 45px 20px 20px 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+   
+}
+.author {
+    position:absolute;
+    left: 20px;
+    top: 20px;
+    font-weight: bold;
+}
+
+.fadeOutImage {
+    animation: fadeOut 2s forwards;
+   
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }
+
+
+.serenade {
+    position: absolute;
+    height: 200px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
