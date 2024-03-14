@@ -62,7 +62,7 @@
 }
 
 .btnAnimated {
-    animation: moveInBottom 1s ease-out;
+    animation: moveInBottom 5s ease-out;
     animation-fill-mode: backwards;
 }
 
